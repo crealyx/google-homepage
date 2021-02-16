@@ -81,29 +81,32 @@ li{
     height: 45px;
     border:rgb(216, 216, 216) 1px solid;
     border-radius: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
     max-width: 95%;
+    outline: none;
+    padding:0px 40px;
+    font-size: 1rem;
     
 }
-.svg-wrapper{
-    width: 620px;
-    display: flex;
-    position: absolute;
-    left: 25px;
-    top:10px;
-    max-width: 95%;
-    margin: 0px 10px;
-    justify-content: space-between;
-    padding-right: 40px;
+#search:hover{
+    -webkit-box-shadow: 0px 6px 15px -2px #d3d3d3;
+    box-shadow: 0px 6px 15px -2px #d3d3d3;
 }
-
 #search-magnify{
     width: 20px;
     fill: #9AA0A6;
+    position: absolute;
+    max-width: 95%;
+    left: 25px;
+    top:13px;
 }
 
 #search-voice{
     width: 25px;
+    position: absolute;
+    max-width: 95%;
+    top:12px;
+    right:30px
 }
 .buttons{
     margin-right: 10px;
